@@ -27,5 +27,6 @@ puts "-------!!!-----"
 str = "something"
 reverse = ""
 str.length.times do |i|
-  reverse.insert(i, str[-1-i].chr)
+  reverse.insert(i, str[-1-i])
+  puts reverse
 end
