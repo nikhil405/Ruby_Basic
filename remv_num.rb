@@ -1,4 +1,10 @@
-arry=[100,502,63,84,51,"hi",0.006,"hello"]
+array = [100,502,63,84,51,"hi",0.006,"hello"]
+c=array.map{|i| i if i.is_a? String} 
+c.compact! 
+p c
 
-p arry.reject{|x| x != "hi "+ "hello" }.map{|x| x }
-# p arry.reject{|x| x != "hello" }.map{|x| x }
+
+
+
+
+

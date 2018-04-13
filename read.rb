@@ -7,7 +7,7 @@
 # a=["nikil","nikitha","uthsav","sowmya"]
 # # puts a.any?{|word|word.length>=6}
 # puts b=%w[ant,cow,dog]
-puts [nil, false, 99].all?   
+#   
 
 # [3, 2, 4, 1, 5, 9, 2, 6, 5, 3, 5].chunk { |n|
 #   n.even?
@@ -17,9 +17,15 @@ puts [nil, false, 99].all?
 # # puts n=[1,2,3,4].map{|i| i.length}
 # p (1..5).map { |i| i*i }   
 # p (1..5).collect{ "cat" }   /
- d=["cat","dogs","cow","duck"]
- p d.map{ 
- 	word if|word| word.length>3 }
+ # d=["cat","dogs","cow","duck"]
+ # p d.map{ 
+#  Person.create(name: "John Doe", age: 27)
+
+# def self.create(params)
+#   @name = params[:name]
+#   @age  = params[:age]
+# end
+# |word| word.length>3 }
 
 # }
 # s=[1,2,3,4,5,6]
@@ -44,3 +50,10 @@ puts [nil, false, 99].all?
 # a.each |e| do 
 
 # 	end
+
+
+puts "enter a value"
+val=gets
+puts "the value a is : #{val}"
+str="uthasav"
+putc str
